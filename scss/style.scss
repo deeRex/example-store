@@ -43,3 +43,34 @@ header form{
 	border-radius: 5px;
 	color:#fff;
 }
+#products img{
+	width:200px;
+	height:auto;
+}
+
+.jumbotron{
+	overflow:auto;
+	padding: 0 !important;
+}
+
+.jumbotron p{
+	font-size:15px;
+}
+
+.tablist{
+	float:left;
+	padding:0;
+	margin:0;
+	width:30%;
+}
+
+.tablist li{
+	background:#ccc;
+	list-style:none;
+	color:#666;
+	padding:15px 10px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	width:100%;
+	font-size:15px;
+}

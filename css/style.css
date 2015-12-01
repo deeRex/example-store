@@ -12983,3 +12983,40 @@ header form {
   border-radius: 5px;
   color: #fff;
 }
+
+/* line 46, ../scss/style.scss */
+#products img {
+  width: 200px;
+  height: auto;
+}
+
+/* line 51, ../scss/style.scss */
+.jumbotron {
+  overflow: auto;
+  padding: 0 !important;
+}
+
+/* line 56, ../scss/style.scss */
+.jumbotron p {
+  font-size: 15px;
+}
+
+/* line 60, ../scss/style.scss */
+.tablist {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+}
+
+/* line 67, ../scss/style.scss */
+.tablist li {
+  background: #ccc;
+  list-style: none;
+  color: #666;
+  padding: 15px 10px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 15px;
+}

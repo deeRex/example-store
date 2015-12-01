@@ -76,11 +76,39 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+       <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs tablist" role="tablist">
+    <li role="presentation" class="active"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Beard of The Day</a></li>
+    <li role="presentation"><a href="#bseller" aria-controls="bseller" role="tab" data-toggle="tab">Best Seller</a></li>
+    <li role="presentation"><a href="#bseller" aria-controls="bseller" role="tab" data-toggle="tab">More Beards</a></li>
+    <li role="presentation"><a href="#bseller" aria-controls="bseller" role="tab" data-toggle="tab">Digital Drawings</a></li>
+    <li role="presentation"><a href="#bseller" aria-controls="bseller" role="tab" data-toggle="tab">Tab Shouded in Mystery</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="featured">
+      <div class="tab-text">
+        <h2>I think beards are great</h2>
+        <p>I like beards, you like beards.... everybody likes beards</p>
+        <a href="products.html" class="btn btn-default">Beard More</a>
+      </div>
+      <img src="img/beard.jpg" class="slide-img thumbnail">
+    </div>
+    <div role="tabpanel" class="tab-pane" id="bseller">
+      <div class="tab-text">
+        <h2>E'rybody wants this one</h2>
+        <p>Was Zant really the villian? Or just a brainwashed fool?</p>
+        <a href="products.html" class="btn btn-default">Beard More</a>
+      </div>
+      <img src="img/ganon.jpg" class="slide-img thumbnail">
+
+    </div>
+  </div>
+
+</div>
       </div>
 
       <section id="products">
@@ -106,6 +134,10 @@
                   </h4>
                   <h4><a href="product.html">Wolf Henna</a></h4>
                   <p>Hand drawn with 2 different kinds of henna</p>
+                 <div class="ratings">
+                    <p class="pull-right"></p>
+                    <p id="star-rating"></p>
+                  </div>
                 </div>
             </div>
           </div>
@@ -118,6 +150,16 @@
                   </h4>
                   <h4><a href="product.html">Pokemon Master Dragonite</a></h4>
                   <p>Drawn with pencil crayons, markers... and love</p>
+                  <div class="ratings">
+                    <p class="pull-right"></p>
+                    <p id="star-rating" class="star-rating">
+                      <script>
+
+                      
+                      </script>
+                      
+                    </p>
+                  </div>
                 </div>
             </div>
           </div>
@@ -132,6 +174,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 
   
   </body>
