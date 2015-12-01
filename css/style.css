@@ -12943,13 +12943,48 @@ body {
 /* line 10, ../scss/style.scss */
 .navbar {
   margin-bottom: 20px;
+  margin-top: 30px;
   background: #0383c0 url(../img/navbar.png) repeat-x;
   border: 1px solid #ccc;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 17, ../scss/style.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default a:hover {
   background: none;
   color: #0383c0;
   font-weight: bold;
+}
+
+/* line 24, ../scss/style.scss */
+.logo {
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+
+/* line 28, ../scss/style.scss */
+.primary {
+  color: #0383c0;
+}
+
+/* line 31, ../scss/style.scss */
+.subtext {
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 0  45px;
+}
+
+/* line 38, ../scss/style.scss */
+header form {
+  float: right;
+  margin-top: 30px;
+  background: #0383c0;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* line 46, ../scss/style.scss */
+img {
+  width: 100%;
 }
