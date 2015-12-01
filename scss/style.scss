@@ -1,6 +1,21 @@
 @import 'bootstrap.scss';
+@import "font-awesome/font-awesome.scss";
 $bodypadding:20px;
+$primary: #0383c0;
 
 body{
 	padding: $bodypadding 0 0 $bodypadding;
+}
+
+.navbar{
+	margin-bottom: 20px;
+	background: $primary url(../img/navbar.png) repeat-x;
+	border: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default a:hover{
+
+background:none;
+color:$primary;
+font-weight: bold;	
 }
